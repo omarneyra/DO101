@@ -4,5 +4,5 @@ metadata:
   name: test-ingress
 spec:
   backend:
-    serviceName: service-clusterip
+    serviceName: loadbalace-services
     servicePort: 443
