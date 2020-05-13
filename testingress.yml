@@ -4,5 +4,5 @@ metadata:
   name: test-ingress
 spec:
   backend:
-    serviceName: kubernetes
-    servicePort: 80
+    serviceName: service-clusterip
+    servicePort: 443
