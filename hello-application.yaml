@@ -6,6 +6,7 @@ spec:
   selector:
     matchLabels:
       run: load-balancer-example
+  replicas: 2
   template:
     metadata:
       labels:
