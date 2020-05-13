@@ -5,4 +5,4 @@ metadata:
 spec:
   backend:
     serviceName: kubernetes
-    servicePort: 443
+    servicePort: 80
